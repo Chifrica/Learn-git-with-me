@@ -33,10 +33,13 @@ const RenderList = () => {
       return students.map((student) => {
         return (
           <React.Fragment>
-            <div className={styles.studentClass}>
-              <div className={styles.studentName}>{student.name}</div>
-              <div className={styles.studentDes}>{student.description}</div>
+            <div className={styles.studentBody}>
+              <div className={styles.studentClass}>
+                <div className={styles.studentName}>{student.name}</div>
+                <div className={styles.studentDes}>{student.description}</div>
+              </div>
             </div>
+            
           </React.Fragment>
         );
       });

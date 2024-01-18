@@ -5,6 +5,8 @@ import RenderList from './RenderList';
 function App() {
   return (
     <React.Fragment>
+
+      {/* This is the heading of the home page */}
       <div className={styles.mainDiv}>
         <div className={styles.imageDiv}>
           <img
@@ -24,6 +26,8 @@ function App() {
           />
         </div>
       </div>
+
+      {/* This is the body of the home page */}
       <RenderList />
     </React.Fragment>
   )
