@@ -5,6 +5,7 @@ import styles from "./RenderList.module.css";
 const RenderList = () => {
   const { mentor, students } = data;
 
+  // Mentor
   const Mentor = () => {
     if (mentor) {
       return (
@@ -28,6 +29,7 @@ const RenderList = () => {
     }
   };
 
+  // Student List
   const StudentList = () => {
     if (students) {
       return students.map((student) => {
